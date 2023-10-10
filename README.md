@@ -28,7 +28,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 * Use sample_values for the marker size.
 * Use otu_ids for the marker colors.
 * Use otu_labels for the text values.
-* 
+  
 ![Screenshot 2023-10-10 140811](https://github.com/Connextstrategy/belly-button-challenge/assets/18508699/f8b325f3-4fb1-47cb-8f21-e9650d6dd7b1)
 
 4. Display the sample metadata, i.e., an individual's demographic information.
