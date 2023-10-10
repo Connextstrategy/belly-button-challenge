@@ -45,6 +45,9 @@ The dataset reveals that a small handful of microbial species (also called opera
 ### Dependencies
 
 * Using Visual Studio Code for coding and data visualizations
+* Web browser to show data visualizations (Google Chrome used but coudl be Mozilla or another)
+* Use index to initiate data visualization
+* Use app file in static folder to understand code for application
 
 ### Installing
 
