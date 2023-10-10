@@ -1,12 +1,14 @@
 # Python Rutgers Bootcamp Challenge - Belly Button Biodiversity
 
-This activity is broken down into multiple deliverables to include creation of a dataframe for Category, Subcategory, Campaign, Contacts, and the creation of a database called Crowdfunding. 
+This activity is broken down into multiple deliverables to include a javascript application, an already created index file, and a dashboard viable via a web browser. 
 
 ## Description
 
-For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
+In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
 
-## Create the Category and Subcategory DataFrames
+The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+
+## Instructions
 
 1. Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
 
@@ -42,12 +44,7 @@ For the ETL mini project, you will work with a partner to practice building an E
 
 ### Dependencies
 
-* Using Jupyter Notebooks or Visual Studio Code for coding and data visualizations
-* import pandas as pd
-* import numpy as np
-* import re
-* from datetime import datetime as dt
-* import json
+* Using Visual Studio Code for coding and data visualizations
 
 ### Installing
 
@@ -55,23 +52,13 @@ For the ETL mini project, you will work with a partner to practice building an E
 
 ## Help
 
-* To split each "category & sub-category" column value into "category" and "subcategory" column values, use df[["new_column1","new_column2"]] = df["column"].str.split(). Make sure to pass the correct parameters to the split() function.
+* Use console.log inside of your JavaScript code to see what your data looks like at each step.
 
-* To get the unique category and subcategory values from the "category" and "subcategory" columns, create a NumPy array where the array length equals the number of unique categories and unique subcategories from each column. For information about how to do so, see numpy.arangeLinks to an external site. in the NumPy documentation.
-
-* To create the category and subcategory identification numbers, use a list comprehension to add the "cat" string or the "subcat" string to each number in the category or the subcategory array, respectively.
-
-* For more information about creating a new Pandas DataFrame, see the pandas.DataFrameLinks to an external site. in the Pandas documentation.
-
-* To convert the "goal" and "pledged" columns to the float data type, use the astype() method.
-
-* To convert the "launch_date" and "end_date" UTC times to the datetime format, see the Transform_Grocery_Orders_Solved.ipynb activity solution.
-
-* For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the pandas.DataFrame.mergeLinks to an external site. in the Pandas documentation.
+* Refer to the Plotly.js documentationLinks to an external site. when building the plots.
 
 ## Authors
 
-Christopher Manfredi, Brandon Mata, June Higgins
+Christopher Manfredi
 
 ## Version History
 
